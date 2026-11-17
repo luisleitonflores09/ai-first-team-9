@@ -1,0 +1,5 @@
+{
+  "name": "northstar-knowledge-assistant",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"]
+}
