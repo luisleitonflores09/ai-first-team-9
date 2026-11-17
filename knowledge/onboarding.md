@@ -1,6 +1,6 @@
 # Northstar Labs onboarding
 
-Northstar Labs is a fictional company used for a training demo.
+Northstar Labs is a fictional company used in the sample knowledge base.
 
 ## First day
 

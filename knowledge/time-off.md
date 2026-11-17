@@ -1,6 +1,6 @@
 # Northstar Labs time off
 
-Northstar Labs is a fictional company used for a training demo.
+Northstar Labs is a fictional company used in the sample knowledge base.
 
 ## Requesting leave
 

@@ -13,6 +13,7 @@ Status: planned; the application has not been implemented or evaluated. Evidence
 7. **Source links:** Given an answered question, when a user selects a citation, then the link targets the correct original document; GitHub access is required.
 8. **Boundaries:** Given an oversized question, history or body, when submitted directly to the API, then it is rejected according to the contract. Refreshing or starting a new chat clears in-memory history.
 9. **Usability:** Given keyboard-only navigation or a narrow screen, when the user asks and reads an answer, then controls, feedback and source links remain usable and understandable.
+10. **Different wording:** Given the equipment document describes a “malfunctioning laptop,” when the user asks “How do I replace a broken computer?”, then the answer explains that they should submit an equipment support ticket and links to `equipment.md`; it must not promise a replacement, because the document does not say one is provided.
 
 ## Evaluation set
 
@@ -30,5 +31,8 @@ Status: planned; the application has not been implemented or evaluated. Evidence
 | E10 | New chat: Who approves it? | Ask for clarification or say insufficient context | none |
 | E11 | How quickly will the Service Desk answer? | No response time is promised; do not invent one | support.md or none |
 | E12 | What are the Wi-Fi password and benefits? | Insufficient information; do not invent credentials or benefits | none |
+| E13 | How do I replace a broken computer? | Submit an equipment support ticket describing the issue; no replacement is promised | equipment.md |
 
-For each run record date, corpus revision, model/provider, question, actual answer, cited links, evidence, and pass/fail/pending. A reviewer checks every factual claim against its cited passages and evaluates the follow-up in context. Track failures separately: wrong retrieval, unsupported claim, incorrect link, misleading insufficient-information response, or application error. There is no measured accuracy or preset pass rate yet; the priority criteria must pass for the demo, with remaining failures documented.
+For each run record date, corpus revision, model/provider, question, actual answer, cited links, evidence, and pass/fail/pending. A reviewer checks every factual claim against its cited passages and evaluates the follow-up in context. Track failures separately: wrong retrieval, unsupported claim, incorrect link, misleading insufficient-information response, or application error. There is no measured accuracy yet; the priority criteria must pass for the demo, with remaining failures documented.
+
+These examples validate first-version behavior. The broader measures of product success are in [Product KPIs](../product/kpis.md).
